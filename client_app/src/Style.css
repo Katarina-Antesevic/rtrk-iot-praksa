@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #9887ff;
+}
+
+.title {
+    color: lightgrey;
+    background: transparent;
+    text-align: left;
+}
+
+
+
+.background {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    color: lightskyblue;
+}

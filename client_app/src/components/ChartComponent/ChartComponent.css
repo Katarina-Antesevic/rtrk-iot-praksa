@@ -1,0 +1,13 @@
+.chart-wrapper{
+    max-width: 60%;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: white;
+}

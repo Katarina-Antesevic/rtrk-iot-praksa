@@ -1,0 +1,7 @@
+.measurementItem {
+    height: inherit;    
+    width: inherit;
+    color: lightgray;
+    padding: 2%;
+    margin-top: 1%
+}

@@ -1,0 +1,14 @@
+.deviceItemComponent{
+    margin-top: 2%;
+}
+.deviceItemFormGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.customLabel{
+    margin-right: 2%;
+}

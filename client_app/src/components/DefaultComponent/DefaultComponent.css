@@ -1,0 +1,18 @@
+.defaultComponent {
+    height: 100vh;
+}
+
+.title {
+    padding-top: 1%;
+    color: lightgrey;
+    background: transparent;
+    text-align: left;
+}
+
+#title1 {
+    font-size: 5em;
+}
+
+#title2 {
+    font-size: 3em;
+}

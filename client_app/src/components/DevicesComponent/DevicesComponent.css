@@ -1,0 +1,54 @@
+.devicesComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.devicesList {
+    width: 60%;
+    color: lightgray;
+    padding: 1%;
+}
+
+
+.addNewDevice {
+    width: 30%;
+    margin-right: 5%;
+    padding: 2%;
+    color: lightgray;
+    border-radius: 25px;
+    border: darkgray;
+    border-style: ridge;
+    margin: 5%;
+
+    background-color: rgb(69, 73, 83);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.addNewDeviceInputGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.customButton{
+    width: 70%;
+}
+
+@media only screen and (max-width: 720px) {
+    .devicesList, .addNewDevice{
+        width: 100%;
+    }
+
+    .devicesComponent{
+        flex-wrap: wrap-reverse;
+    }
+  }

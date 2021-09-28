@@ -1,0 +1,29 @@
+{
+  "name": "rtrk-praksa",
+  "version": "1.0.0",
+  "description": "An app for RT-RK summer practice",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "react-bootstrap": "^2.0.0-beta.4"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client_app",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client_app && npm run build --prefix client_app"
+  },
+  "author": "YouFaceJaraxxus",
+  "license": "ISC"
+}
